@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "title": "Q&A with Book Signing: Isobelle Carmody",
+        "description": "Join us for an intimate evening with renowned author Isobelle Carmody, as we explore her fantasy and sci-fi worlds, with an opportunity to have your books personally signed.",
+        "image": "Isobelle-Carmody-author-pic.jpg",
+        "imgalttext": "A portrait photo of Isobelle Carmody.",
+        "datetime": "2023-01-08 18:30",
+        "entryfee": 0,
+        "ticketedevent": false,
+        "maxtickets": 0
+    },
+    {
+        "id": 2,
+        "title": "Spoken Word Poetry - The meaning of Joy",
+        "description": "Let poetry ignite your soul as we explore the essence of joy through captivating spoken word performances.",
+        "image": "fuu-j-r2nJPbEYuSQ-unsplash.jpg",
+        "imgalttext": "A photo of a girl with arms stretched wide beside her, staring out over an ocean at sunset.",
+        "datetime": "2023-01-10 19:30",
+        "entryfee": 0,
+        "ticketedevent": false,
+        "maxtickets": 0
+    }
+]

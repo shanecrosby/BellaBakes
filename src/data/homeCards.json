@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Fresh Bread",
+        "description": "Bella takes the art of bread-making to heart. Her freshly baked bread, including the beloved sourdough, is a labor of love. Each loaf is handcrafted with the finest ingredients and allowed to ferment slowly, resulting in a crispy crust and a soft, airy interior. Whether you're enjoying it toasted with butter or as the foundation for your favorite sandwich, her bread will transport your taste buds to a world of rustic, wholesome flavors.",
+        "image": "monika-grabkowska-nVoDL1YDWRE-unsplash.jpg",
+        "imgalttext": "A top-down photo of a miche sourdough loaf with a star-shaped pattern baked into the surface."
+    },
+    {
+        "id": 2,
+        "title": "French Pastries",
+        "description": "Indulge in the exquisite flavors of France with Bella's delectable French pastries. Her flaky, buttery croissants are a true delight, with each layer carefully folded to perfection. These pastries are an ode to tradition, and they come in various flavors, including classic butter, chocolate, and almond. Each bite is a journey to a Parisian café, where you can savor the rich aroma and taste of authentic French pastry craftsmanship.",
+        "image": "sergio-arze-eH9_kZ92LWQ-unsplash.jpg",
+        "imgalttext": "A close-up photo of collection of croissants and other french pastries, dusted with powdered sugar."
+    },
+    {
+        "id": 3,
+        "title": "Sweet Treats",
+        "description": "Bella believes that every day is a good day for something sweet. Her collection of sweet treats, including pies, tarts, and macarons, is designed to satisfy your cravings and bring joy to your taste buds. Her pies boast flaky, homemade crusts filled with luscious fruit or velvety custard. Her tarts are works of art, featuring vibrant seasonal fruits atop delicate pastry - a symphony of flavor in every bite. Each sweet treat is a testament to Bella's commitment to quality and taste, making every bite a memorable experience.",
+        "image": "serghei-savchiuc-Qaruw62_kmM-unsplash.jpg",
+        "imgalttext": "A pile of macarons, each a different colour are stacked neatly on a board made from the cross-section of a tree trunk."
+    }
+]

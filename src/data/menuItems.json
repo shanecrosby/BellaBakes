@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Croissants",
+        "description": "Flaky and buttery croissants baked to perfection.",
+        "image": "mae-mu-m9pzwmxm2rk-unsplash.jpg",
+        "imgalttext": "Two croissants sit on a black piece of slate in a kitchen, being dusted by powdered sugar.",
+        "price": 2.99,
+        "servingSize": 1,
+        "includeInEstimate": true
+    },
+    {
+        "id": 2,
+        "name": "Fruit Tart",
+        "description": "A delightful fruit tart with a buttery crust.",
+        "image": "duncan-kidd-oAr1OeL14zs-unsplash.jpg",
+        "imgalttext": "A top-down photo of a mixed-berry crumble.",
+        "price": 4.99,
+        "servingSize": 1,
+        "includeInEstimate": true
+    }
+]
