@@ -1,22 +1,72 @@
 [
     {
-        "id": 1,
+        "itemID": 1,
         "name": "Croissants",
         "description": "Flaky and buttery croissants baked to perfection.",
         "image": "mae-mu-m9pzwmxm2rk-unsplash.jpg",
         "imgalttext": "Two croissants sit on a black piece of slate in a kitchen, being dusted by powdered sugar.",
-        "price": 2.99,
+        "price": 299,
         "servingSize": 1,
+        "includeInEstimate": false
+    },
+    {
+        "itemID": 2,
+        "name": "Raspberry Dream Tart",
+        "description": "Bite-sized buttery tarts filled with sweet raspberry compote and topped with almond crumble.",
+        "image": "duncan-kidd-oAr1OeL14zs-unsplash.jpg",
+        "imgalttext": "A top-down photo of a mixed-berry crumble.",
+        "price": 299,
+        "servingSize": 1,
+        "includeInEstimate": false
+    },
+    {
+        "itemID": 3,
+        "name": "Antipasto Platter",
+        "description": "Savor a symphony of Italian flavors with our Antipasto Platter, featuring savory cured meats, marinated olives, mozzarella cheese, and more—a culinary journey in every bite.",
+        "image": "david-b-townsend-VT9uj4FbQSE-unsplash.jpg",
+        "imgalttext": "",
+        "price": 2500,
+        "servingSize": 10,
         "includeInEstimate": true
     },
     {
-        "id": 2,
-        "name": "Fruit Tart",
-        "description": "A delightful fruit tart with a buttery crust.",
-        "image": "duncan-kidd-oAr1OeL14zs-unsplash.jpg",
-        "imgalttext": "A top-down photo of a mixed-berry crumble.",
-        "price": 4.99,
+        "itemID": 4,
+        "name": "Chocolate Chunk Cookies",
+        "description": "Large, gooey cookies packed with rich chocolate chunks and a hint of sea salt.",
+        "image": "food-photographer-jennifer-pallian-OfdDiqx8Cz8-unsplash.jpg",
+        "imgalttext": "",
+        "price": 85,
         "servingSize": 1,
-        "includeInEstimate": true
+        "includeInEstimate": false
+    },
+    {
+        "itemID": 5,
+        "name": "Lemon Zest Eclair",
+        "description": "A light éclair filled with zesty lemon cream and lovingly dusted with finely powdered sugar.",
+        "image": "diliara-garifullina-1oH1Xhtfxos-unsplash.jpg",
+        "imgalttext": "",
+        "price": 499,
+        "servingSize": 1,
+        "includeInEstimate": false
+    },
+    {
+        "itemID": 6,
+        "name": "Seasonal Fruit Platter",
+        "description": "Experience nature's sweetness with our Seasonal* Fruit Platter, a vibrant mix of fresh and dried fruits, juicy berries, crisp apples, and the best of the season—perfect for refreshing snacking and events.\n\n*Fruit selection may vary depending on season",
+        "image": "naveed-pervaiz-IlnF2g_3tpY-unsplash.jpg",
+        "imgalttext": "",
+        "price": 2500,
+        "servingSize": 10,
+        "includeInEstimate": false
+    },
+    {
+        "itemID": 7,
+        "name": "Cinnamon Swirl Delight",
+        "description": "A flaky pastry twisted with layers of cinnamon and sugar, drizzled with vanilla glaze.",
+        "image": "ben-stein-r41HIB6Rrpk-unsplash.jpg",
+        "imgalttext": "",
+        "price": 399,
+        "servingSize": 1,
+        "includeInEstimate": false
     }
 ]

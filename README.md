@@ -24,6 +24,8 @@ The following additional node packages have been included
 * gatsby-plugin-image
 * gatsby-plugin-google-fonts
 * Font Awesome: (@fortawesome/react-fontawesome @fortawesome/fontawesome-svg-core @fortawesome/free-brands-svg-icons @fortawesome/free-solid-svg-icons)
+* react-day-picker - a nice single-month calendar style date picker
+* date-fns - required by react-day-picker
 
 
 ## Things Learnt
@@ -31,6 +33,9 @@ The following additional node packages have been included
 * __Gatsby JSON transformer__ (gatsby-transformer-json) connects to server-side .json files for reading data with GraphQL
 * __Gatsby Image Plugin__ (gatsby-plugin-image) allows you to pull in an image with only the filename specified, by searching from within the specified image folder in gatsby-config.js, and specify in GraphQL the image specs including placeholder effect and size to be provided without needing to specify in the source JSON or CSS. 
 * __Gatsby Google Fonts plugin__ (gatsby-plugin-google-fonts) is a somewhat simple way to interface with the Google Fonts api. It just needs to be installed, and then included in the gatsby-config.js file.
+* __Re-initialising__ If something happens (*cough OneDrive *cough) and your node_modules folder gets messed up, you can delete it and the package-logck.json file, then run "npm install" to re-initialise the site back to a working state.
+* __Linebreaks in JSON__ If text in a JSON file needs a line break when rendered in HTML, use the '\n' in the JSON file, and then style the paragraph in CSS with the "white-space: pre-line;" selector.
+* __Masonry Layouts__ Not yet fully implemented in most browsers, there are ways of doing it. Once is to use a javascript library (masonry-layout), another is to sort of fake it with CSS. Guide <a href="https://hackernoon.com/how-to-build-a-masonry-layout-using-css" target="_blank">here</a>
 
 ## Site Asset Credits:
 Pie icon:

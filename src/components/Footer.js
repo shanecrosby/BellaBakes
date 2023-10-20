@@ -16,7 +16,7 @@ const Footer = () => {
                     <div className="footer-left">
                         <h1>Bella Bakes</h1>
                         <h2>Bakery and Patisserie</h2>
-                        <p>
+                        <p className='address-block'>
                             <b>Bella Amato-Farina</b><br />
                             123 Somerset Boulevard<br />
                             Sorrento, 6020<br />

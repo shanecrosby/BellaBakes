@@ -1,24 +1,68 @@
 [
     {
-        "id": 1,
+        "eventID": 1,
         "title": "Q&A with Book Signing: Isobelle Carmody",
         "description": "Join us for an intimate evening with renowned author Isobelle Carmody, as we explore her fantasy and sci-fi worlds, with an opportunity to have your books personally signed.",
         "image": "Isobelle-Carmody-author-pic.jpg",
         "imgalttext": "A portrait photo of Isobelle Carmody.",
-        "datetime": "2023-01-08 18:30",
+        "datetime": "2024-01-08 18:30",
         "entryfee": 0,
         "ticketedevent": false,
-        "maxtickets": 0
+        "maxtickets": 50
     },
     {
-        "id": 2,
+        "eventID": 2,
         "title": "Spoken Word Poetry - The meaning of Joy",
         "description": "Let poetry ignite your soul as we explore the essence of joy through captivating spoken word performances.",
         "image": "fuu-j-r2nJPbEYuSQ-unsplash.jpg",
         "imgalttext": "A photo of a girl with arms stretched wide beside her, staring out over an ocean at sunset.",
-        "datetime": "2023-01-10 19:30",
+        "datetime": "2024-01-10 19:30",
         "entryfee": 0,
         "ticketedevent": false,
-        "maxtickets": 0
-    }
+        "maxtickets": 50
+    },
+    {
+        "eventID": 3,
+        "title": "Comedy Central Stand-up sessions",
+        "description": "Get ready for a night of laughter with our Comedy Central Stand-up Sessions, featuring talented comedians who will leave you in stitches.",
+        "image": "bruno-cervera-Gi6-m_t_W-E-unsplash.jpg",
+        "imgalttext": "A close-up photo of a microphone in a music club.",
+        "datetime": "2024-01-12 19:30",
+        "entryfee": 20,
+        "ticketedevent": true,
+        "maxtickets": 50
+    },
+    {
+        "eventID": 4,
+        "title": "High Tea Sunday",
+        "description": "Elevate your Sunday afternoon with a sophisticated High Tea experience, featuring exquisite teas and an array of sweet and savory delights. Every sunday from 3pm-5pm. Bookings essential.",
+        "image": "jelleke-vanooteghem-qfRsevOtQXE-unsplash.jpg",
+        "imgalttext": "A high-tea tower of scones and assorted baked goods.",
+        "datetime": "2024-01-14 15:00",
+        "entryfee": 50,
+        "ticketedevent": true,
+        "maxtickets": 30
+    },
+    {
+        "eventID": 5,
+        "title": "Learn to bake: Apple Pie",
+        "description": "Roll up your sleeves and embark on a baking adventure as Bella reveals the secrets of creating her famous Apple Pie. Limited places available.",
+        "image": "nathan-dumlao-Q-ZdlPqWUjU-unsplash.jpg",
+        "imgalttext": "A close-up photo of a microphone in a music club.",
+        "datetime": "2024-01-16 19:00",
+        "entryfee": 40,
+        "ticketedevent": true,
+        "maxtickets": 15
+    },
+    {
+        "eventID": 6,
+        "title": "Coffee Appreciation for beginners",
+        "description": "Delve into the world of coffee with our Coffee Appreciation session for beginners, where you'll learn the secrets of brewing the perfect cup of joe. Limited places available.",
+        "image": "nathan-dumlao-6VhPY27jdps-unsplash.jpg",
+        "imgalttext": "Three hands holding cups of various kinds of coffee together.",
+        "datetime": "2024-01-18 10:00",
+        "entryfee": 20,
+        "ticketedevent": true,
+        "maxtickets": 20
+    }   
 ]

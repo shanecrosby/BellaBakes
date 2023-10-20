@@ -1,26 +1,27 @@
 // src/components/HomeCard.js
 import React from 'react';
 import { GatsbyImage } from 'gatsby-plugin-image';
-import icons from '../components/icons'
 import './css/homecard.css';
 
 const HomeCardComponent = ({ homecard, image }) => {
+    //console.log("Received Image: ", image); // Debugging line
+
     return (
         <div className="home-card">
-            {image && <GatsbyImage image={image} alt={homecard.imgalttext} />}
+            <GatsbyImage image={image} alt={homecard.imgalttext} />
             <h3>{homecard.title}</h3>
             <p>{homecard.description}</p>
         </div>
     );
 };
 
-const HomeServiceCardComponent = ({ servicecard }) => {
-    const Icon = icons[servicecard.icon];
+const HomeServiceCardComponent = ({ servicecard, image }) => {
+    //console.log("Received Image: ", image); // Debugging line
 
     return (
         <div className="service-card">
-            {Icon && <Icon />}
-            <h3>{servicecard.title}</h3>
+            <div className="icon"><GatsbyImage image={image} alt={servicecard.imgalttext} /></div>
+            <h3 className="service-title">{servicecard.title}</h3>
             <p>{servicecard.description}</p>
         </div>
     );

@@ -10,7 +10,7 @@ const EventPage = () => {
         query {
             allEventsJson {
                 nodes {
-                    id
+                    eventID
                     title
                     description
                     image
@@ -24,7 +24,7 @@ const EventPage = () => {
                 nodes {
                     relativePath
                     childImageSharp {
-                        gatsbyImageData(width: 200, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
+                        gatsbyImageData(placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
                     }
                 }
             }
@@ -36,11 +36,23 @@ const EventPage = () => {
         }
     `);
 
+    /*useEffect(() => {
+        new Masonry('.event-card-container', {
+            itemSelector: '.event-card',
+            columnWidth: '.event-card',
+            percentPosition: true,
+            gutter: '.event-card-spacer',
+            horizontalOrder: true,
+            fitwidth: true,
+            transitionDuration: '0.1s'
+        });
+    }, []);*/
+
     return (
         <Layout>
             <section>
                 <div id="events-hero">
-                    <GatsbyImage image={getImage(data.heroImage)} alt="Placeholder" className="hero-bgImage" />
+                    <GatsbyImage image={getImage(data.heroImage)} alt="" className="hero-bgImage" />
                     <div className="hero-text">
                         <div className='hero-textBG'></div>
                         <h1>Upcoming Events</h1>
@@ -50,8 +62,7 @@ const EventPage = () => {
                         </p>
                     </div>
                 </div>
-
-                <div className="cards">
+                <div className="event-card-container">
                     {data.allEventsJson.nodes.map(card => {
                         const eventDate = new Date(card.datetime);
                         const dateOptions = { 
@@ -68,7 +79,6 @@ const EventPage = () => {
                         return <EventCard key={card.id} event={card} image={getImage(imageFile)} formattedDate={formattedDate} />;
                     })}
                 </div>
-
             </section>
         </Layout>
     );

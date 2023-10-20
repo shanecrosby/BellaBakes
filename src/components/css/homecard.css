@@ -1,23 +1,24 @@
 /* src/components/css/eventcard.css */
 
-h3 {
-    font-family: 'Twinkle Star';
-}
-
-.home-card {
+.home-card, .service-card {
     border: 1px solid white;
     margin: 1rem;
     padding: 0;
-    width: 15rem;
+    min-width: 18rem;
+    width: auto;
+    height: fit-content;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     box-shadow: .1rem 5px 10px rgba(0, 0, 0, .2);
-    height: fit-content;
 }
 
 .home-card img {
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 15rem;
+    overflow: hidden;
 }
 
 a {
@@ -29,13 +30,12 @@ a {
     margin: 0;
 }
 
-.home-card h4, h3 {
+.home-card h4, .home-card h3, .service-card h4, .service-card h3 {
     padding: 0 .5rem 0 .5rem;
     margin: .5rem 0 .5rem 0;
-    
 }
 
-.home-card h3 {
+.home-card h3, .service-card h3 {
     color: var(--light-blue);
     font-weight: 400;
 }
@@ -43,4 +43,33 @@ a {
 .button-link {
     margin: 1.5rem;
     align-self: center;
+}
+
+.service-card {
+    display: flex;
+    align-items: center;
+}
+
+.service-card p {
+    padding: .5rem;
+    margin: .5rem;
+}
+
+.service-card .icon {
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background-color: var(--yellow);
+    width: 100px;
+    height: 100px;
+    margin: 1rem;
+}
+.icon img{
+    width: 60%;
+    height: auto;
+    transform: translateX(30%) !important;
+}
+
+.service-title {
+    font-size: 2rem;
 }

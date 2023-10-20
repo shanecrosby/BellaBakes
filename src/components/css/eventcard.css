@@ -1,27 +1,46 @@
 /* src/components/css/eventcard.css */
 
-h3 {
-    font-family: 'Twinkle Star';
+@media (max-width: 1024px) {
+    .event-card p {
+        font-size: calc(12pt + 0.390625vw);
+    }
+}
+
+@media (max-width: 768px) {
+    .event-card p {
+        font-size: calc(10pt + 0.390625vw);
+    }
+}
+
+.event-card-container {
+    margin: 2rem auto;
+    width: 75%;
+    max-width: 1920px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .event-card {
-    border: 1px solid white;
-    margin: 1rem;
     padding: 0;
-    width: 15rem;
+    min-width: 18rem;
+    width: 80%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     box-shadow: .1rem 5px 10px rgba(0, 0, 0, .2);
     height: fit-content;
+    margin-bottom: 3rem;
+}
+
+.event-card-spacer {
+    width: 3rem;
 }
 
 .event-card img {
     margin: 0;
     padding: 0;
-}
-
-a {
-    text-decoration: none;
+    object-fit: contain;
+    max-height: 15rem;
 }
 
 .event-card p {
@@ -32,12 +51,13 @@ a {
 .event-card h4, h3 {
     padding: 0 .5rem 0 .5rem;
     margin: .5rem 0 .5rem 0;
-    
+    border: none;
 }
 
 .event-card h3 {
     color: var(--light-blue);
     font-weight: 400;
+    font-size: calc(1.15rem + 0.390625vw);
 }
 
 .button-link {

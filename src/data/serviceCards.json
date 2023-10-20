@@ -3,18 +3,21 @@
         "id": 1,
         "title": "Café",
         "description": "Step into our cozy café at Bella's bakery and patisserie, where you can experience the true essence of her artisanal baked goods. In our inviting space, you can savor a cup of freshly brewed coffee or tea alongside a selection of Bella's finest pastries and bread. Whether you're seeking a peaceful morning retreat or a delightful afternoon break, our café offers a warm and welcoming environment to enjoy the fruits of Bella's baking passion.",
-        "icon": "BreadIcon"
+        "image": "icons/BreadIcon.png",
+        "imgalttext": "A line-drawing of a loaf of bread."
     },
     {
         "id": 2,
         "title": "Function Room",
         "description": "Planning a special event? Our spacious function room  is the perfect setting for gatherings of up to fifty people. Whether it's a birthday celebration, bridal shower, or corporate meeting, our function room provides a versatile space for your needs. We offer full catering services, ensuring that your guests indulge in a culinary experience they won't forget. What's more, our venue is licensed for BYO, allowing you to add your favorite beverages to complement our delicious offerings.",
-        "icon": "PieIcon"
+        "image": "icons/PieIcon.png",
+        "imgalttext": "A line-drawing of a pie."
     },
     {
         "id": 3,
         "title": "External Event Catering",
-        "description": "Bringing Bella's delectable creations to your own event has never been easier. With our external event catering services, you can have Bella's freshly baked goods prepared and ready for collection or delivery. Whether it's a family gathering, office party, or any special occasion, we'll ensure that your menu is filled with our signature pastries, bread, and sweet treats. Let us take care of the baking, so you can focus on enjoying the company of your guests and the flavors of Bella Bakes Bakery andPatisserie, wherever you are.",
-        "icon": "CroissantIcon"
+        "description": "Bringing Bella's delectable creations to your own event has never been easier. With our external event catering services, you can have Bella's freshly baked goods prepared and ready for collection or delivery. Whether it's a family gathering, office party, or any special occasion, we'll ensure that your menu is filled with our signature pastries, bread, and sweet treats. Let us take care of the baking, so you can focus on enjoying the company of your guests and the flavors of Bella Bakes Bakery and Patisserie, wherever you are.",
+        "image": "icons/CroissantIcon.png",
+        "imgalttext": "A line-drawing of a croissant."
     }
 ]
