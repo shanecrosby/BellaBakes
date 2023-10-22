@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkbella_bakes=self.webpackChunkbella_bakes||[]).push([[618],{4953:function(e,l,t){t.r(l);var a=t(7294),n=t(2767);l.default=()=>a.createElement(n.Z,null,a.createElement("section",null,a.createElement("h1",null,"Order Tickets"),a.createElement("p",null,"Ticket purchase form goes here.")))}}]);
+//# sourceMappingURL=component---src-pages-bookings-js-23a60e60eabf396c1f94.js.map
