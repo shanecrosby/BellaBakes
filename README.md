@@ -48,7 +48,11 @@ The following additional node packages have been included
 }
 ```
 NB: Only do this if you get a deprecation warning for the isModuleDeclatation => isImportOrExportDeclaration during develop/build compile.
-* __Deploying a subfolder to GitHub Pages__ Follow instructions <a href="https://gist.github.com/cobyism/4730490" target="_blank">here</a>.
+* __Deploying a subfolder to GitHub Pages__ Follow instructions <a href="https://gist.github.com/cobyism/4730490" target="_blank">here</a>. To re-deploy if you've made changes to the site you need to delete gh-pages and then you can run the command to publish again.
+```
+git push origin --delete gh-pages
+git subtree push --prefix public origin gh-pages
+```
 
 ## Site Asset Credits:
 Pie icon:
