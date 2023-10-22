@@ -51,6 +51,9 @@ The following additional node packages have been included
 NB: Only do this if you get a deprecation warning for the isModuleDeclatation => isImportOrExportDeclaration during develop/build compile.
 * __Deploying a subfolder to GitHub Pages__ Follow instructions <a href="https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/how-gatsby-works-with-github-pages/" target="_blank">here</a>.
 
+## Known bugs
+Something is going wrong when the site is published to GitHub pages, causing the formatting on the About page to render incorrectly and one of the images on the home page to be sized incorrectly.
+
 ## Site Asset Credits:
 Pie icon:
 Pie by rendicon from <a href="https://thenounproject.com/browse/icons/term/pie/" target="_blank" title="Pie Icons">Noun Project</a> (CC BY 3.0)
