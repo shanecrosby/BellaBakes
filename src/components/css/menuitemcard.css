@@ -130,7 +130,7 @@ h3 {
 
 .calendar-container {
     margin: 5rem auto;
-    width: 80%;
+    width: 280px;
     padding: 1rem;
 }
 
@@ -187,7 +187,7 @@ h3 {
 
 .guest-form textarea {
     margin-left: 2rem;
-    width: 100%;
+    width: 270px;
     font-size: 1.75rem;
     padding-left: .5rem;
 }
