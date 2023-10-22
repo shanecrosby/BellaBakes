@@ -26,6 +26,7 @@ The following additional node packages have been included
 * Font Awesome: (@fortawesome/react-fontawesome @fortawesome/fontawesome-svg-core @fortawesome/free-brands-svg-icons @fortawesome/free-solid-svg-icons)
 * react-day-picker - a nice single-month calendar style date picker
 * date-fns - required by react-day-picker
+* gh-pages ```npm install gh-pages --save-dev``` to allow automated publishing to GitHub pages.
 
 
 ## Things Learnt
@@ -48,11 +49,7 @@ The following additional node packages have been included
 }
 ```
 NB: Only do this if you get a deprecation warning for the isModuleDeclatation => isImportOrExportDeclaration during develop/build compile.
-* __Deploying a subfolder to GitHub Pages__ Follow instructions <a href="https://gist.github.com/cobyism/4730490" target="_blank">here</a>. To re-deploy if you've made changes to the site you need to delete gh-pages and then you can run the command to publish again.
-```
-git push origin --delete gh-pages
-git subtree push --prefix public origin gh-pages
-```
+* __Deploying a subfolder to GitHub Pages__ Follow instructions <a href="https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/how-gatsby-works-with-github-pages/" target="_blank">here</a>.
 
 ## Site Asset Credits:
 Pie icon:
