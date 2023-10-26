@@ -26,6 +26,7 @@ The following additional node packages have been included
 * Font Awesome: (@fortawesome/react-fontawesome @fortawesome/fontawesome-svg-core @fortawesome/free-brands-svg-icons @fortawesome/free-solid-svg-icons)
 * react-day-picker - a nice single-month calendar style date picker
 * date-fns - required by react-day-picker
+* gh-pages ```npm install gh-pages --save-dev``` to allow automated publishing to GitHub pages.
 
 
 ## Things Learnt
@@ -36,6 +37,22 @@ The following additional node packages have been included
 * __Re-initialising__ If something happens (*cough OneDrive *cough) and your node_modules folder gets messed up, you can delete it and the package-logck.json file, then run "npm install" to re-initialise the site back to a working state.
 * __Linebreaks in JSON__ If text in a JSON file needs a line break when rendered in HTML, use the '\n' in the JSON file, and then style the paragraph in CSS with the "white-space: pre-line;" selector.
 * __Masonry Layouts__ Not yet fully implemented in most browsers, there are ways of doing it. Once is to use a javascript library (masonry-layout), another is to sort of fake it with CSS. Guide <a href="https://hackernoon.com/how-to-build-a-masonry-layout-using-css" target="_blank">here</a>
+* __Gatsby Babel Warnings__ At time of writing (Oct 2023), Gatsby uses the babel-plugin-lodash plugin which by default uses an outdated version of @babel/types. This needs to be overwritten in the package.json file with the following:
+```
+{
+   // [...]
+  "overrides": {
+    "babel-plugin-lodash": {
+      "@babel/types": "~7.20.0"
+    }
+  }
+}
+```
+NB: Only do this if you get a deprecation warning for the isModuleDeclatation => isImportOrExportDeclaration during develop/build compile.
+* __Deploying a subfolder to GitHub Pages__ Follow instructions <a href="https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/how-gatsby-works-with-github-pages/" target="_blank">here</a>.
+
+## Known bugs
+Something is going wrong when the site is published to GitHub pages, causing the formatting on the About page to render incorrectly and one of the images on the home page to be sized incorrectly.
 
 ## Site Asset Credits:
 Pie icon:

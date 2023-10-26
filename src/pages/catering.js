@@ -1,5 +1,5 @@
 // src/pages/orderpage.js
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import Layout from '../components/layout'; // Import the layout component
 import { graphql, useStaticQuery } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
@@ -7,7 +7,6 @@ import MenuItemCardComponent from '../components/MenuItemCard'; // Import MenuIt
 import { format } from 'date-fns';
 import { DayPicker} from 'react-day-picker';
 import 'react-day-picker/src/style.css';
-//import { es } from 'date-fns/locale';
 
 const OrderPage = () => {
     const [selectedItems, setSelectedItems] = useState(0);
@@ -65,14 +64,14 @@ const OrderPage = () => {
     };
 
     // Calculate the estimated cost
-    const recalculateCost = () => {
+    const recalculateCost = useCallback(() => {
         //console.log("All Items:", data.allMenuItemsJson.nodes);
         let newEstimate = 0;
         
         Object.keys(selectedItems).forEach(itemID => {
             const item = data.allMenuItemsJson.nodes.find(node => {
                 //console.log(`Comparing ${node.itemID} with ${itemID}`);
-                return node.itemID == itemID;
+                return Number(node.itemID) === Number(itemID);
             });
             if (item) {
                 newEstimate += (item.price * numberOfGuests) / item.servingSize;
@@ -85,11 +84,11 @@ const OrderPage = () => {
         newEstimate += deliveryCost;
         setEstimatedCost((newEstimate / 100).toFixed(2));
         console.log("recalculateCost: newEstimate:", newEstimate)
-    }
+    }, [data, numberOfGuests, selectedItems, deliveryCost]);
 
     useEffect(() => {
         recalculateCost();
-    }, [selectedItems, numberOfGuests, deliveryCost])
+    }, [selectedItems, numberOfGuests, deliveryCost, recalculateCost])
     
     const [selected, setSelected] = React.useState(null);
     let footer = <p>Please select a date for your event.</p>;
