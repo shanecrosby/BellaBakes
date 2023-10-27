@@ -112,6 +112,12 @@ a {
     position: relative;
 }
 
+.about {
+    background-image: url('./images/miti-qYreP9QOdrk-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
 .body-text {
     width: 80%;
     margin: auto;

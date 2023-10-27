@@ -39,18 +39,13 @@ const AboutPage = () => {
                 gatsbyImageData(height: 400, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
             }
         }
-        backgroundImage: file(relativePath: { eq: "miti-qYreP9QOdrk-unsplash.jpg" }) {
-            childImageSharp {
-                gatsbyImageData(placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
-            }
-        }
     }
 `);
 
     return (
         <Layout>
-            <section className='main-container'>
-                <GatsbyImage image={getImage(data.backgroundImage)} alt="A border of different kinds of bread on a black background." className="background-image" />
+            <section className='main-container about'>
+                {/*<GatsbyImage image={getImage(data.backgroundImage)} alt="A border of different kinds of bread on a black background." className="background-image" />*/}
                 <div className='page-container'>
                     <h1 className='main-title'>Meet Bella:<br /> A Baker's Journey</h1>
                     <GatsbyImage image={getImage(data.heroImage)} alt="Bella Amato-Farina" className="hero-image" />
@@ -75,3 +70,14 @@ const AboutPage = () => {
 };
 
 export default AboutPage;
+
+{/*
+        Removed GraphQL:
+        
+        backgroundImage: file(relativePath: { eq: "miti-qYreP9QOdrk-unsplash.jpg" }) {
+            childImageSharp {
+                gatsbyImageData(placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
+            }
+        }*/
+    
+    }
