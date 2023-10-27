@@ -50,8 +50,8 @@ const AboutPage = () => {
     return (
         <Layout>
             <section className='main-container'>
-                <div className='page-container'>
                 <GatsbyImage image={getImage(data.backgroundImage)} alt="A border of different kinds of bread on a black background." className="background-image" />
+                <div className='page-container'>
                     <h1 className='main-title'>Meet Bella:<br /> A Baker's Journey</h1>
                     <GatsbyImage image={getImage(data.heroImage)} alt="Bella Amato-Farina" className="hero-image" />
                     <div className='bodytext-container'>
