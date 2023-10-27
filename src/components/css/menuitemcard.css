@@ -1,11 +1,4 @@
 /* src/components/css/menuitemcard.css */
-
-h3 {
-    font-size: calc(16pt + 0.390625vw);
-    border-bottom: 3px solid var(--yellow);
-    width: fit-content;
-}
-
 @media (min-width: 1024px) {
     .calendar-container, .intro-image, .intro-text {
         flex: 1;
@@ -31,9 +24,10 @@ h3 {
     .calendar-container {
         margin: 0 !important;
     }
+
 }
 
-@media (max-width: 868px) {
+@media (max-width: 500px) {
     .menuItem-card p {
         font-size: calc(10pt + 0.390625vw);
     }
@@ -165,8 +159,8 @@ h3 {
     min-height: 40vh;
     grid-auto-flow: dense;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
-    grid-auto-rows: 12rem 1rem auto;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+    grid-auto-rows: 12rem 3rem auto;
     container-type: inline-size;
 }
 
@@ -176,10 +170,15 @@ h3 {
     grid-row: span 3;
     display: grid;
     grid-template-rows: subgrid;
-    gap: .8rem;
+    gap: .5rem;
     background: var(--clr-primary-700);
     overflow: hidden;
     box-shadow: .1rem 5px 10px rgba(0, 0, 0, .2);
+}
+
+.menuItem-card img {
+    object-fit: contain;
+    object-position: bottom;
 }
 
 .title-checkbox-container {
@@ -195,9 +194,9 @@ h3 {
 }
 
 .menuItem-header {
+    font-size: calc(16pt + 0.390625vw);
+    border-bottom: 3px solid var(--yellow);
     margin: .5rem;
-    padding: 0;
-    flex: 1;
 }
 
 .calendar-title {

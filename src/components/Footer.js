@@ -39,8 +39,8 @@ const Footer = () => {
                             <div className="column-left">
                                 <h3>Services</h3>
                                 <ul className='footer-list'>
-                                    <li>Café</li>
-                                    <li>Functions</li>
+                                    <li><Link to="/cafe">Café</Link></li>
+                                    <li><Link to="/functions">Functions</Link></li>
                                     <li><Link to="/catering">External Catering</Link></li>
                                 </ul>
                             </div>

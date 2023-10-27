@@ -1,0 +1,49 @@
+{
+    "Menu": {
+        "Food": {
+            "Bakery Items": [
+                {"name": "Croissant", "description": "Flakey, buttery layers of pastry goodness.", "price": "$4.50"},
+                {"name": "Chocolate Éclair", "description": "Cream-filled choux pastry topped with rich chocolate glaze.", "price": "$6.00"},
+                {"name": "Sourdough Loaf", "description": "A rustic, tangy loaf, perfect for sharing.", "price": "$7.00"},
+                {"name": "Blueberry Muffin", "description": "Moist muffin packed with fresh blueberries.", "price": "$4.00"},
+                {"name": "Cinnamon Roll", "description": "Soft pastry rolled with cinnamon sugar and topped with vanilla icing.", "price": "$5.00"}
+            ],
+            "Patisserie Specials": [
+                {"name": "Fruit Tart", "description": "A crisp tart shell filled with pastry cream and topped with seasonal fruits.", "price": "$8.50"},
+                {"name": "Macarons", "description": "Almond-based confection with a ganache or buttercream filling.", "price": "$2.50 each"},
+                {"name": "Opera Cake", "description": "Layers of almond sponge, coffee buttercream, and dark chocolate glaze.", "price": "$9.00"},
+                {"name": "Pavlova", "description": "Crispy meringue shell with a soft, marshmallowy interior, topped with fresh fruits.", "price": "$8.00"}
+            ],
+            "Cafe Classics": [
+                {"name": "Egg & Bacon Roll", "description": "Soft roll filled with crispy bacon and a fried egg.", "price": "$8.00"},
+                {"name": "Veggie Sandwich", "description": "Fresh vegetables with a pesto spread on whole-grain bread.", "price": "$10.00"},
+                {"name": "Quiche Lorraine", "description": "Savoury tart filled with cheese, ham, and a rich egg custard.", "price": "$11.00"},
+                {"name": "Caesar Salad", "description": "Romaine lettuce, croutons, and Caesar dressing, with optional chicken.", "price": "$12.00"}
+            ]
+        },
+        "Drinks": {
+            "Hot Drinks": [
+                {"name": "Flat White", "description": "An Espresso shot with steamed milk and a thin layer of microfoam.", "price": "$4.50"},
+                {"name": "Long Black", "description": "An Espresso shot topped up with hot water.", "price": "$3.00"},
+                {"name": "Cappuccino", "description": "An Espresso shot with steamed milk and a thick layer of foam, dusted with chocolate.", "price": "$4.00"},
+                {"name": "Café Latté", "description": "An Espresso shot with steamed milk and a small amount of foam.", "price": "$4.00"},
+                {"name": "Macchiato", "description": "An Espresso shot with a small amount of milk foam.", "price": "$3.50"},
+                {"name": "Espresso", "description": "A single Espresso shot in a tiny cup.", "price": "$2.50"},
+                {"name": "Affogato", "description": "An Espresso shot poured over a scoop of vanilla ice cream.", "price": "$5.50"},
+                {"name": "Chai Latté", "description": "Spiced black tea combined with steamed milk.", "price": "$4.50"},
+                {"name": "Green Tea", "description": "Sencha green tea leaves steeped to perfection.", "price": "$3.50"},
+                {"name": "Hot Chocolate", "description": "Creamy cocoa blended with hot milk, topped with whipped cream.", "price": "$5.00"},
+                {"name": "Additional syrups", "description": "Vanilla, Caramel, Hazelnut, Gingerbread", "price": "50c per shot"},
+                {"name": "Dairy alternatives", "description": "Dairy alternatives are available upon request: Lactose Free Milk, Goat's Milk, Oat, Almond, Soy, Cashew"}
+            ],
+            "Cold Drinks": [
+                {"name": "Milkshake", "description": "Choice of chocolate, strawberry, spearmint, banana, or vanilla, topped with whipped cream.", "price": "$6.00"},
+                {"name": "Iced Coffee", "description": "Chilled coffee served over ice with milk and a shot of vanilla syrup.", "price": "$5.50"},
+                {"name": "Coffee Frappé", "description": "A blended iced coffee drink topped with whipped cream and chocolate sauce.", "price": "$6.50"},
+                {"name": "Chocolate Frappé", "description": "A blended iced chocolate drink tooped with whipped cream and chocolate sauce.", "price": "$6.50"},
+                {"name": "Mango Frappé", "description": "A blended ice drink made with fresh mango nectar.", "price": "$6.50"},
+                {"name": "Fresh Cold-pressed Juice", "description": "Choice of orange, apple, or a seasonal blend.", "price": "$5.00"}
+            ]
+        }
+    }
+}

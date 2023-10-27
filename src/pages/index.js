@@ -4,7 +4,6 @@ import { graphql, useStaticQuery } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { HomeCardComponent, HomeServiceCardComponent } from '../components/HomeCards'; // Import HomeCard and ServiceCard component
 import FormComponent from '../components/SubscribeForm';
-//import { Link } from "gatsby"
 
 const IndexPage = () => {
     const data = useStaticQuery(graphql`

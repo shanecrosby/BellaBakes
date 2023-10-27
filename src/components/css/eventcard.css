@@ -72,7 +72,7 @@
     margin: 0;
 }
 
-.event-card h4, h3 {
+.event-card h4, .event-card h3 {
     padding: 0 .5rem 0 .5rem;
     margin: .5rem 0 .5rem 0;
     border: none;

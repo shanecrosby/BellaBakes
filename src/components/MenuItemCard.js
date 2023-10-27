@@ -7,7 +7,7 @@ import './css/menuitemcard.css';
 const MenuItemCardComponent = ({ menuItem, image, updateSelectedItems, recalculateCost }) => {
     return (
         <div className="menuItem-card">
-            <GatsbyImage image={image} alt={menuItem.imgalttext} />
+            <GatsbyImage image={image} alt={menuItem.imgalttext} className="menuItem-image" />
             <div className="title-checkbox-container">
                 <h3 className='menuItem-header'>{menuItem.name}</h3>
                 <label htmlFor={menuItem.itemID} className="checkbox-container" >
