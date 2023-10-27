@@ -12,15 +12,27 @@
     }
 }
 
-.event-card-container {
+/*.event-card-container {
     margin: 2rem auto;
     width: 75%;
     max-width: 1920px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}*/
+
+.event-card-container {
+    margin: 3rem auto;
+    width: 75%;
+    max-width: 1920px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+    grid-auto-rows: 12rem 2rem auto auto 1rem 1rem auto;
+    gap: 2rem;
+    container-type: inline-size;
+    height: auto;
 }
 
-.event-card {
+/*.event-card {
     padding: 0;
     min-width: 18rem;
     width: 80%;
@@ -30,6 +42,19 @@
     box-shadow: .1rem 5px 10px rgba(0, 0, 0, .2);
     height: fit-content;
     margin-bottom: 3rem;
+}*/
+
+.event-card {
+    --_padding: 1rem;
+
+    grid-row: span 7;
+    display: grid;
+    grid-template-rows: subgrid;
+    gap: 1rem;
+    background: var(--clr-primary-700);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: .1rem 5px 10px rgba(0, 0, 0, .2);
 }
 
 .event-card-spacer {
@@ -39,8 +64,7 @@
 .event-card img {
     margin: 0;
     padding: 0;
-    object-fit: contain;
-    max-height: 15rem;
+    object-fit: cover;
 }
 
 .event-card p {
@@ -61,6 +85,6 @@
 }
 
 .button-link {
-    margin: 1.5rem;
     align-self: center;
+    justify-self: center;
 }

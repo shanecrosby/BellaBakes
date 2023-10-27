@@ -38,21 +38,21 @@ const Footer = () => {
                             {/* Column A: */}
                             <div className="column-left">
                                 <h3>Services</h3>
-                                <ul>
+                                <ul className='footer-list'>
                                     <li>Café</li>
                                     <li>Functions</li>
-                                    <li>External Catering</li>
+                                    <li><Link to="/catering">External Catering</Link></li>
                                 </ul>
                             </div>
                             {/* Column B: */}
-                            <div className="column-right">
+                            {/*<div className="column-right">
                                 <h3>Resources</h3>
                                 <ul>
                                     <li>Special Events</li>
                                     <li>Blog</li>
                                     <li>FAQs</li>
                                 </ul>
-                            </div>
+                            </div>*/}
                         </div>
                     </div>
                 </div>

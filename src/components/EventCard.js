@@ -7,7 +7,7 @@ import './css/eventcard.css';
 
 const EventCard = ({ event, image, formattedDate }) => {
     const isTicketed = event.ticketedevent === true;
-    const limitedSeats = event.maxtickets > 0 && event.entryfee === 0;
+    const limitedSeats = event.maxtickets;
     const bookingURL = `/bookings?eventId=${event.eventID}`
 
     return (
@@ -17,16 +17,23 @@ const EventCard = ({ event, image, formattedDate }) => {
             <h3>{event.title}</h3>
             <p>{event.description}</p>
 
-            { limitedSeats && (
+            {limitedSeats && event.entryfee === 0 && (
                 <>
                     <p className="maxtickets"><strong>Event capacity:</strong> {event.maxtickets}</p>
-                    <Link to={bookingURL} id='buytickets' className='button-link'>Reserve a seat</Link>
+                    <p>Aim to arrive slightly early to ensure you get a seat.</p>
                 </>
             )}
-            {isTicketed && (
+            {isTicketed && event.entryfee > 0 && (
                 <>
                     <p className="maxtickets"><strong>Event capacity:</strong> {event.maxtickets}</p>
                     <p className="entryfee"><strong>Entry:</strong> ${event.entryfee}</p>
+                    <Link to={bookingURL} id='buytickets' className='button-link'>Buy Tickets</Link>
+                </>
+            )}
+            {isTicketed && event.entryfee === 0 && (
+                <>
+                    <p className="maxtickets"><strong>Event capacity:</strong> {event.maxtickets}</p>
+                    <p className="entryfee"><strong>Entry:</strong> Free</p>
                     <Link to={bookingURL} id='buytickets' className='button-link'>Buy Tickets</Link>
                 </>
             )}

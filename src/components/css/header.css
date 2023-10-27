@@ -82,18 +82,18 @@ h1, h2, h3 {
     font-size: 1.5rem;
 }
 
-li {
-    color: var(--light-blue);
+.nav-li {
+    color: var(--primary-blue);
     font-weight: 600;
 }
 
-li .active {
-    color: var(--primary-blue);
+.nav-li .active {
+    color: var(--light-blue) !important;
     font-weight: 700;
     border-bottom: 3px solid var(--yellow);
 }
 
-li a {
+.nav-li a {
     display: block;
     text-align: center;
     padding: 1rem;
@@ -101,15 +101,15 @@ li a {
     color: var(--primary-blue);
 }
 
-li a:hover {
+.nav-li a:hover {
     background-color: var(--yellow);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    color: var(--primary-blue);
+    color: var(--primary-blue) !important;
 }
 
-li a:visited {
-    color: var(--light-blue);
+.nav-li a:visited {
+    color: var(--primary);
 }
 
 .button-link {

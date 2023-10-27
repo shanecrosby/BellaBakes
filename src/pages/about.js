@@ -3,7 +3,6 @@ import React from 'react';
 import Layout from '../components/layout'; // Import the layout component
 import { graphql, useStaticQuery } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import '../components/css/about.css';
 
 const AboutPage = () => {
 
@@ -63,9 +62,9 @@ const AboutPage = () => {
                         <p className='paragraph'>
                             After finishing high school, Bella embarked on a life-changing adventure to France, the epicenter of patisserie excellence. She wandered through quaint patisseries and boulangeries in the charming streets of Paris and immersed herself in the art of creating delicate pastries, perfecting her techniques under the guidance of skilled French bakers. France's culinary culture and the mastery of French pastry chefs ignited her passion even further.</p>
                         <p className='paragraph'>
-                            During her travels Bella met her future husband, Mark, who was travelling for work. She ended up relocating to start a new life with him in his home city of Perth in Western Australia. With her heart and mind filled with knowledge and creativity from her adventures, Mark encouraged her to pursue her dream and blend the best of both worlds—French patisserie finesse and Italian baking traditions. Bella's philosophy is simple yet profound: every baked good should not only taste divine but also evoke the warmth of home and the beauty of life's simple pleasures.</p>
+                            During her travels Bella met her future husband, Mark, who was travelling for work. She ended up relocating to start a new life with him in his home city of Perth in Western Australia. With her heart and mind filled with knowledge and creativity from her adventures, Mark encouraged her to pursue her dream and blend the best of both worlds — French patisserie finesse and Italian baking traditions. Bella's philosophy is simple yet profound: every baked good should not only taste divine but also evoke the warmth of home and the beauty of life's simple pleasures.</p>
                         <p className='paragraph'>
-                            At Bella Bakes, Bakery and Patisserie, you'll experience the culmination of Bella's journey—a place where authenticity meets innovation. Each pastry, bread loaf, and sweet treat is crafted with a sprinkle of nostalgia, a dash of creativity, and a whole lot of love. Bella's creations are an embodiment of her passion for bringing people together over the joy of exceptional baked goods.</p>
+                            At Bella Bakes, Bakery and Patisserie, you'll experience the culmination of Bella's journey; a place where authenticity meets innovation. Each pastry, bread loaf, and sweet treat is crafted with a sprinkle of nostalgia, a dash of creativity, and a whole lot of love. Bella's creations are an embodiment of her passion for bringing people together over the joy of exceptional baked goods.</p>
                         <p className='paragraph'>
                             Bella welcomes you to her bakery, where every bite tells a story, every pastry transports you to far-off places, and every moment is a celebration of life's sweetness.</p>
                     </div>
